@@ -1,8 +1,8 @@
 ---
-title: wx.lin使用方法
+title: wx.coco使用方法
 ---
 
-# <H2Icon /> wx.lin使用方法
+# <H2Icon /> wx.coco使用方法
 
 :::warning 已废弃
 wx.coco 已废弃，将在未来的某个版本移除，如果对应组件有[开放函数](./open-function)，请使用[开放函数](./open-function)代替
