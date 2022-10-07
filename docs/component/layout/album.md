@@ -95,7 +95,7 @@ data:{
     <view class="album">
         <l-avatar class="avatar" size='80' shape="square" src="" />
         <view class="right">
-            <view class="name">Lin-UI-27315</view>
+            <view class="name">CoCo-UI-27315</view>
             <view class='content'>一张竖屏图片的展示，高为360rpx。</view>
             <l-album urls='{{urls}}'></l-album>
         </view>
@@ -157,7 +157,7 @@ data:{
     <view class="album">
         <l-avatar class="avatar" size='80' shape="square" src="" />
         <view class="right">
-            <view class="name">Lin-UI-27315</view>
+            <view class="name">CoCo-UI-27315</view>
             <view class='content'>多张图片展示，显示为边长158rpx的正方形。</view>
             <l-album urls='{{urls}}'></l-album>
         </view>
@@ -168,7 +168,7 @@ data:{
     <view class="album">
         <l-avatar class="avatar" size='80' shape="square" src="" />
         <view class="right">
-            <view class="name">Lin-UI-27315</view>
+            <view class="name">CoCo-UI-27315</view>
             <view class='content'>多张图片展示，自动按照朋友圈显示规则排序。</view>
             <l-album urls='{{urls}}'></l-album>
         </view>
@@ -238,7 +238,7 @@ data:{
     <view class="album">
         <l-avatar class="avatar" size='80' shape="square" src="" />
         <view class="right">
-            <view class="name">Lin-UI-27315</view>
+            <view class="name">CoCo-UI-27315</view>
             <view class='content'>通过single-mode可以更改单图时图片裁剪、缩放的模式。示例为center模式。</view>
             <l-album urls='{{urls}}' single-mode='center'></l-album>
         </view>
@@ -249,7 +249,7 @@ data:{
     <view class="album">
         <l-avatar class="avatar" size='80' shape="square" src="" />
         <view class="right">
-            <view class="name">Lin-UI-27315</view>
+            <view class="name">CoCo-UI-27315</view>
             <view class='content'>通过multiple-mode可以更改多图时图片裁剪、缩放的模式。示例为scaleToFill模式。</view>
             <l-album urls='{{urls}}' multiple-mode='scaleToFill'></l-album>
         </view>

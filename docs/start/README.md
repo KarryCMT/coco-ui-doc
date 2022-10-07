@@ -48,7 +48,7 @@ npm install coco-ui
 
 ### 方式二：下载代码
 
-直接通过git下载  `CoCo UI`  源代码，并将 `dist` 目录（Lin-UI 组件库）拷贝到自己的项目中。
+直接通过git下载  `CoCo UI`  源代码，并将 `dist` 目录（CoCo-UI 组件库）拷贝到自己的项目中。
 
 ```sh
 git clone https://github.com/KarryCMT/coco-ui.git
@@ -79,10 +79,10 @@ git clone https://github.com/KarryCMT/coco-ui.git
    ```
    > 我们建议你在引入 CoCo UI 组件时，都统一命名为 `l-{组件名}` 格式，遵循此规范将使你的项目代码更加清晰
 
-   **至此，Lin UI 已成功引入至你的项目中了！**
+   **至此，CoCo UI 已成功引入至你的项目中了！**
 ## 自定义配置
 
-> 考虑到开发者在面临不同到项目时，需求和行业的不同。Lin UI 设计规范上支持一定程度上的样式定制，以满足业务和品牌上多样化的视觉需求。
+> 考虑到开发者在面临不同到项目时，需求和行业的不同。CoCo UI 设计规范上支持一定程度上的样式定制，以满足业务和品牌上多样化的视觉需求。
 
 同时，可以通过对 `components.json` 进行配置，来编译生成相对应的组件。
 <br />

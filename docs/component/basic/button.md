@@ -156,7 +156,7 @@ CoCo-Mini的Button组件同样支持小程序原生Button的相关开放能力�
 * 根据需求设置Button的`open-type`(开放能力类型)属性，该属性的可选值与[小程序Button组件][1]的`open-type`属性可选值保持一致。
 
 例如设置分享功能即可写为`open-type="share"`。
-* 某些开放能力同时还需要传入一个回调函数用以获取回调数据，Lin-MiNi的Button组件的回调函数设置方式同样与小程序原生Button保持一致。
+* 某些开放能力同时还需要传入一个回调函数用以获取回调数据，CoCo-MiNi的Button组件的回调函数设置方式同样与小程序原生Button保持一致。
 
 例如在获取用户信息时，你可以这样设置回调函数：`bind:getuserinfo="getUserInfo"`。
 
