@@ -4,7 +4,7 @@ title: 贡献指南
 
 # <H2Icon /> 贡献指南
 
-这篇指南会指导你如何为 LinUI 贡献一份自己的力量，请在你要提 pull request 之前花几分钟来阅读一遍这篇指南。
+这篇指南会指导你如何为 CoCoUI 贡献一份自己的力量，请在你要提 pull request 之前花几分钟来阅读一遍这篇指南。
 
 ## 开发流程
 
@@ -24,7 +24,7 @@ title: 贡献指南
 
 [如何优雅地在 GitHub 上贡献代码](https://segmentfault.com/a/1190000000736629)
 
-LinUI 团队会尽快处理您所提的 Pull Request ，review 并合并代码，也有可能要求你做一些修改或者告诉你我们为什么不能接受这样的修改。
+CoCoUI 团队会尽快处理您所提的 Pull Request ，review 并合并代码，也有可能要求你做一些修改或者告诉你我们为什么不能接受这样的修改。
 
 在您发送 Pull Request 之前，请确保您是按照一下流程进行的：
 
