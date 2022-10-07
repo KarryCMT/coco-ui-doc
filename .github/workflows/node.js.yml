@@ -43,7 +43,7 @@ jobs:
         run: npm ci
       - name: 修改编译路径
         run: |
-          sed -i "s#base: '/',#base: '/lin-ui-doc/',#" docs/.vuepress/config.js
+          sed -i "s#base: '/',#base: '/coco-ui-doc/',#" docs/.vuepress/config.js
       - name: 开始编译
         run: npm run build
       - name: 部署 Github Pages
@@ -99,7 +99,7 @@ jobs:
       - name: Gitee 同步
         uses: spyoungtech/mirror-action@master
         with:
-          REMOTE: https://gitee.com/juzi214032/lin-ui-doc.git
+          REMOTE: https://github.com/KarryCMT/coco-ui-doc.git
           GIT_USERNAME: juzi214032
           GIT_PASSWORD: ${{ secrets.GITEE_TOKEN }}
 
@@ -113,6 +113,6 @@ jobs:
       - name: Coding 同步
         uses: spyoungtech/mirror-action@master
         with:
-          REMOTE: https://e.coding.net/juzi214032/lin-ui-doc.git
+          REMOTE: https://github.com/KarryCMT/coco-ui-doc.git
           GIT_USERNAME: MJdiuGOEDD
           GIT_PASSWORD: ${{ secrets.CODING_TOKEN }}
