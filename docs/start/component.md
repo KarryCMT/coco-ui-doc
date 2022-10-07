@@ -4,11 +4,11 @@ title: 组件上手
 
 # <H2Icon /> 组件上手
 
-关于微信小程序组件的相关知识，本文不会做详细的描述，这些知识点需要你去参考微信小程序的[自定义组件](https://developers.weixin.qq.com/miniprogram/dev/framework/custom-component/)来获取，本文的重点是保证每一个使用者都能正确快速的在自己的项目里使用Lin-UI。
+关于微信小程序组件的相关知识，本文不会做详细的描述，这些知识点需要你去参考微信小程序的[自定义组件](https://developers.weixin.qq.com/miniprogram/dev/framework/custom-component/)来获取，本文的重点是保证每一个使用者都能正确快速的在自己的项目里使用CoCo-UI。
 
 ## 组件的引入
 
-引入Lin-UI组件和引入自己写的组件一样，首先需要在 `json` 文件中进行自定义组件声明，也就是在`usingComponents` 下以键值对的形式去注册，`l-icon` 是组件的名称，`path/to/icon/index` 是组件的路径。
+引入CoCo-UI组件和引入自己写的组件一样，首先需要在 `json` 文件中进行自定义组件声明，也就是在`usingComponents` 下以键值对的形式去注册，`l-icon` 是组件的名称，`path/to/icon/index` 是组件的路径。
 ::: tip 注意事项
 需要注意的是，由于引入lin-ui的方式不同，（npm引入/ 复制源码的dist文件夹），所以这里的`path/to` 只是用来表示路径这个含义，并不能直接复制进项目里。需要你根据实际情况来配置正确的路径。
 :::
@@ -69,7 +69,7 @@ title: 组件上手
 }
 ```
 
-这样，我们使用Lin-UI开发的效率又会大大提升啦！
+这样，我们使用CoCo-UI开发的效率又会大大提升啦！
 
 `官方提示`:组件开发体验爽，一直使用一直爽！
 

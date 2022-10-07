@@ -4,7 +4,7 @@ title: 常见问题
 
 # <H2Icon /> 常见问题汇总（完善中……）
 
-## 在跨端框架中使用Lin-UI
+## 在跨端框架中使用CoCo-UI
 coco-ui支持在uni-app、mpvue、Taro等跨端框架中使用。
 
 ::: tip 注意
