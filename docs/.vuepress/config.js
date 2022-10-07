@@ -1,8 +1,8 @@
 const highlight = require('./public/js/highlight')
 
 module.exports = {
-  title: 'Lin UI',
-  description: 'Lin UI 是基于微信小程序原生语法 实现的组件库。遵循简洁、易用的设计规范。',
+  title: 'CoCo UI',
+  description: 'CoCo UI 是基于微信小程序原生语法 实现的组件库。遵循简洁、易用的设计规范。',
   host: 'localhost',
   port: 3000,
   base: '/',
@@ -28,12 +28,12 @@ module.exports = {
   head: [
     ['link', { rel: 'icon', href: '/favicon.ico' }],
     ['link', { rel: 'manifest', href: '/manifest.json' }],
-    ['meta', { name: 'theme-color', content: '#3a63bd' }],
+    ['meta', { name: 'theme-color', content: '#679e5f' }],
     ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
     ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }],
     ['link', { rel: 'apple-touch-icon', href: '/favicon.ico' }],
     ['meta', { name: 'msapplication-TileImage', content: '/favicon.ico' }],
-    ['meta', { name: 'msapplication-TileColor', content: '#3A63BD' }],
+    ['meta', { name: 'msapplication-TileColor', content: '#679e5f' }],
     ["script", { async: true, type: "text/javascript", src: "https://s9.cnzz.com/z_stat.php?id=1279053128&web_id=1279053128" }],
     ["script", { async: true, type: "text/javascript", src: "https://hm.baidu.com/hm.js?8628fff92d16599a4cb40c15288bf5e3" }]
   ],
