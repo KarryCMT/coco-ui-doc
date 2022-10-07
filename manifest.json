@@ -1,9 +1,9 @@
 {
-  "short_name": "Lin UI",
-  "name": "Lin UI 中文文档",
+  "short_name": "CoCo UI",
+  "name": "CoCo UI 中文文档",
   "display": "standalone",
   "start_url": "/",
-  "theme_color": "#3a63bd",
+  "theme_color": "#679e5f",
   "background_color": "#ffffff",
   "orientation": "portrait-primary"
 }
