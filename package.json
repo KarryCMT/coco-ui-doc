@@ -1,7 +1,7 @@
 {
-  "name": "lin-ui-doc",
-  "version": "0.9.11",
-  "description": "Lin UI 文档",
+  "name": "coco-ui-doc",
+  "version": "0.0.1",
+  "description": "CoCo UI 文档",
   "main": "index.js",
   "scripts": {
     "dev": "vuepress dev docs",
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/juzi214032/lin-ui-doc.git"
+    "url": "git+https://github.com/KarryCMT/coco-ui-doc.git"
   },
-  "author": "TaleLin",
+  "author": "Karry",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/juzi214032/lin-ui-doc/issues"
+    "url": "https://github.com/KarryCMT/coco-ui-doc/issues"
   },
-  "homepage": "https://github.com/juzi214032/lin-ui-doc#readme",
+  "homepage": "https://github.com/KarryCMT/coco-ui-doc#readme",
   "devDependencies": {
     "vuepress": "^1.8.2",
     "vuepress-plugin-container": "^2.1.4",
