@@ -79,10 +79,6 @@ module.exports = {
         link: '/cli/'
       },
       {
-        text: '慕课课程',
-        link: '/imooc/'
-      },
-      {
         text: '更新日志',
         link: 'https://github.com/TaleLin/lin-ui/releases'
       }

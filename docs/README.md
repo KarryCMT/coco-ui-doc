@@ -33,7 +33,7 @@
 
 # <H2Icon />简介
 
-> Lin UI 是基于 **微信小程序原生语法** 实现的组件库。遵循简洁，易用的设计规范。
+> CoCo UI 是基于 **微信小程序原生语法** 实现的组件库。遵循简洁，易用的设计规范。
 
 
 在如今这个移动互联网时代，技术创新将带来商业模式的完全颠覆，伴随着小程序的诞生，移动互联网行业也迎来了新一波的浪潮。<br/>
@@ -117,11 +117,11 @@
   color: #fff;
   padding: 5px 15px;
   line-hight: 45px;
-  background-color: #3683d6;
+  background-color: #72ba68;
   border-radius: 4px;
   transition: background-color .1s ease;
   box-sizing: border-box;
-  border-bottom: 1px solid #3683d6;
+  border-bottom: 1px solid #72ba68;
 }
 
 .QR-wrapper{

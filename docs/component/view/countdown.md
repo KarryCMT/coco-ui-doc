@@ -75,14 +75,14 @@ title: 倒计时 Countdown
 .content .countdown-blue {
   width: 52rpx ;
   height: 52rpx;
-  border: 2rpx solid #3683D6;
+  border: 2rpx solid #72ba68;
   border-radius: 50%;
   background:transparent;
-  color: #3683D6;
+  color: #72ba68;
 }
 
 .content .countdown-text {
-  color: #3683D6;
+  color: #72ba68;
 }
 
 ```

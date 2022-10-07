@@ -10,7 +10,7 @@
 </div>
 
 <div align="center">
-    <span>Lin UI, not just an UI component library!</span><br/>
+    <span>CoCo UI, not just an UI component library!</span><br/>
     <strong>一套基于微信小程序原生语法实现的高质量 UI 组件库</strong>
 </div>
 
@@ -48,7 +48,7 @@
 
 ## 简介
 
-Lin UI 是一套基于 **微信小程序原生语法** 实现的高质量 UI 组件库。遵循简洁、易用、美观的设计规范。
+CoCo UI 是一套基于 **微信小程序原生语法** 实现的高质量 UI 组件库。遵循简洁、易用、美观的设计规范。
 
 
 
@@ -65,14 +65,14 @@ Lin UI 是一套基于 **微信小程序原生语法** 实现的高质量 UI 组
 
    > 若项目根目录已包含 package.json 文件，则可跳过该步骤
 
-2. 安装 Lin UI
+2. 安装 CoCo UI
 
    ```
    npm i lin-ui
    ```
 
 3. 配置微信开发者工具
-   要正确安装 Lin UI，需将微信开发者工具的如下**两个选项全部勾选上**，[参考图片](https://cdn.talelin.com/%E6%9C%AC%E5%9C%B0%E8%AE%BE%E7%BD%AE.png)
+   要正确安装 CoCo UI，需将微信开发者工具的如下**两个选项全部勾选上**，[参考图片](https://cdn.talelin.com/%E6%9C%AC%E5%9C%B0%E8%AE%BE%E7%BD%AE.png)
    - `使用 npm 模块`
    - `ES6 转 ES5`
 
@@ -88,7 +88,7 @@ Lin UI 是一套基于 **微信小程序原生语法** 实现的高质量 UI 组
 
 1. 配置微信开发者工具
 
-     - 要正确使用 Lin UI，需将微信开发者工具的 `Es6 转 ES5` 选项勾选上
+     - 要正确使用 CoCo UI，需将微信开发者工具的 `Es6 转 ES5` 选项勾选上
 
        > 设置路径：微信开发者工具右上角 -> 详情 -> 本地设置
 
@@ -106,7 +106,7 @@ Lin UI 是一套基于 **微信小程序原生语法** 实现的高质量 UI 组
    ```html
     <l-button type="default">默认按钮</l-button>
    ```
-   > 我们建议你在引入 Lin UI 组件时，都统一命名为 `l-{组件名}` 格式，遵循此规范将使你的项目代码更加清晰
+   > 我们建议你在引入 CoCo UI 组件时，都统一命名为 `l-{组件名}` 格式，遵循此规范将使你的项目代码更加清晰
 
    **至此，Lin UI 已成功引入至你的项目中了！**
 
@@ -116,7 +116,7 @@ Lin UI 是一套基于 **微信小程序原生语法** 实现的高质量 UI 组
 
 ## 用户案例
 
-Lin UI 经过大量用户实践，已产生出非常多的优秀案例，[点击链接](https://github.com/TaleLin/lin-ui/issues/947)可查看其他用户的提交的案例小程序。
+CoCo UI 经过大量用户实践，已产生出非常多的优秀案例，[点击链接](https://github.com/TaleLin/lin-ui/issues/947)可查看其他用户的提交的案例小程序。
 
 ## 贡献代码
 

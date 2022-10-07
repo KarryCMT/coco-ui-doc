@@ -8,7 +8,7 @@ title: 导航栏 TabBar
 
 ## 介绍
 
-导航栏使用微信小程序的[ 自定义 TabBar ](https://developers.weixin.qq.com/miniprogram/dev/framework/ability/custom-tabbar.html)实现。**在初次切换页面时，会发生闪烁**，该问题是微信小程序自定义 TabBar 底层实现方式导致，不属于 Lin UI 的问题。
+导航栏使用微信小程序的[ 自定义 TabBar ](https://developers.weixin.qq.com/miniprogram/dev/framework/ability/custom-tabbar.html)实现。**在初次切换页面时，会发生闪烁**，该问题是微信小程序自定义 TabBar 底层实现方式导致，不属于 CoCo UI 的问题。
 
 ## 基础使用
 :::img

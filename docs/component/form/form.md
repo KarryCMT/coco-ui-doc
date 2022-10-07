@@ -81,7 +81,7 @@ Page({
 :::
 
 在 form 组件中，每一个表单域由一个 form-Item 组件构成，表单域中可以放置各种类型的表单控件，包括 `Input`、`Checkbox`、`Radio`、`Rate`、`TextArea` 。
-form-Item 中只能使用 Lin-UI 的表单元素，不能使用其他UI组件或者小程序的原生组件。
+form-Item 中只能使用 CoCo-UI 的表单元素，不能使用其他UI组件或者小程序的原生组件。
 
 表单使用需要有以下注意：
 

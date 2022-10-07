@@ -147,7 +147,7 @@ title: 按钮 Button
 
 > 建议使用开放能力前仔细阅读[微信小程序button组件][1]的相关文档，充分了解小程序Button的相关开放能力。
 
-Lin-Mini的Button组件同样支持小程序原生Button的相关开放能力。
+CoCo-Mini的Button组件同样支持小程序原生Button的相关开放能力。
 
 例如，小程序可以通过原生Button来获取用户的相关信息。而使用Lin-Mini的Button组件同样可以做到，且用法同原生Button保持一致。
 
@@ -189,7 +189,7 @@ Lin-Mini的Button组件同样支持小程序原生Button的相关开放能力。
  <!-- wxml文件 -->
  <l-button special="{{true}}" open-type="contact">
     <view class="container">
-      <l-icon size="40" name="customer-service" color="#3683d6" />
+      <l-icon size="40" name="customer-service" color="#72ba68" />
       <text class="describe">客服</text>
     </view>
   </l-button>
@@ -204,7 +204,7 @@ Lin-Mini的Button组件同样支持小程序原生Button的相关开放能力。
   }
 
   .describe {
-    color: #3683d6;
+    color: #72ba68;
     font-size: 28rpx;
     margin-left:20rpx;
   }

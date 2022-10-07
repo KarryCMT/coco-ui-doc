@@ -142,7 +142,7 @@ title: 模态框 Dialog
 | locked        | 设置背景是否为锁定态 | Boolean | -----         | true     |
 | show-title    | 是否显示模态框的标题 | Boolean | true/false    | true     |
 | confirm-text  | 确定按钮的文本       | String  |               | 确定     |
-| confirm-color | 确定按钮的颜色       | String  |               | #3683d6  |
+| confirm-color | 确定按钮的颜色       | String  |               | #72ba68  |
 | cancel-text   | 取消按钮的文本       | String  |               | 取消     |
 | cancel-color  | 取消按钮的颜色       | String  |               | #45526b  |
 | is-hover      | 是否显示hover效果    | Boolean | ---           | true     |

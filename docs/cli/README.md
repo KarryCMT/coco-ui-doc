@@ -1,20 +1,20 @@
 ---
-title: Lin UI CLI
+title: CoCo UI CLI
 ---
 
-# <H2Icon /> Lin UI CLI
-Lin UI CLI 是一款针对于 **微信小程序** 以及 **Lin UI** 的脚手架，通过 Lin UI CLI 可以快速搭建一套带有 **按需加载** 功能和 **Lin UI** 组件库的项目模板。
+# <H2Icon /> CoCo UI CLI
+CoCo UI CLI 是一款针对于 **微信小程序** 以及 **CoCo UI** 的脚手架，通过 CoCo UI CLI 可以快速搭建一套带有 **按需加载** 功能和 **CoCo UI** 组件库的项目模板。
 
 ## 特性
 
 - 提供 `create` 命令，您可以通过此命令快速搭建一套项目模板
-- 提供 `load` 命令，此命令可以实现 Lin UI  **按需加载** 功能
+- 提供 `load` 命令，此命令可以实现 CoCo UI  **按需加载** 功能
 
 ## 快速上手
 
 ### 新项目引入
 
-执行以下命令可以快速创建一个基于 Lin UI CLI 的项目：
+执行以下命令可以快速创建一个基于 CoCo UI CLI 的项目：
 
 ```bash
 # 推荐
@@ -38,11 +38,11 @@ Successfully created project lin-ui-demo, directory name is lin-ui-demo
 Next: Please run cd lin-ui-demo && npm install or yarn
 ```
 
-到此一个基于 Lin UI 的微信小程序项目已经安装完成，在每次上传之前会触发 **按需加载** 功能，无用组件或文件将不会被打包。
+到此一个基于 CoCo UI 的微信小程序项目已经安装完成，在每次上传之前会触发 **按需加载** 功能，无用组件或文件将不会被打包。
 
 ### 旧项目迁移
 
-首先，您在进行此操作前需有一个基于 Lin UI 的微信小程序项目，并在 **本地设置** 中勾选 `使用npm模块` 选项。
+首先，您在进行此操作前需有一个基于 CoCo UI 的微信小程序项目，并在 **本地设置** 中勾选 `使用npm模块` 选项。
 打开小程序的项目根目录，执行下面的命令（如果使用了云开发，需要进入 miniprogram 文件夹下执行下面的命令）。
 
 ```sh
@@ -72,13 +72,13 @@ npm install lin-ui-cli
 }
 ```
 
-到此 Lin UI CLI 脚手架已经安装完成，在每次上传之前会触发 **按需加载** 功能，无用组件或文件将不会被打包。
+到此 CoCo UI CLI 脚手架已经安装完成，在每次上传之前会触发 **按需加载** 功能，无用组件或文件将不会被打包。
 
 
 ## lin-ui.config.json (Attributes）
 
 | 参数            | 说明                                                       | 类型   | 可选值 | 默认值          |
 | :-------------- | :--------------------------------------------------------- | :----- | :----- | :-------------- |
-| lib      | 配置 Lin UI 组件所在路径      | String | -      | miniprogram_npm/lin-ui          |
+| lib      | 配置 CoCo UI 组件所在路径      | String | -      | miniprogram_npm/lin-ui          |
 
 <RightMenu /> 

@@ -89,7 +89,7 @@ title: 通告栏 NoticeBar
     front-icon-name="notification" 
     end-icon-name="close" 
     front-icon-size="20"
-    front-icon-color="#3683D6"> 
+    front-icon-color="#72ba68"> 
   我是通告栏
 </l-notice-bar>
 ```

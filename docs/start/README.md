@@ -4,15 +4,15 @@ title: 快速开始
 
 # <H2Icon />快速上手
 
-Lin UI 致力于给小程序开发者提供愉悦的开发体验。
+CoCo UI 致力于给小程序开发者提供愉悦的开发体验。
 > 在开始之前，推荐先学习微信官方的[小程序开发文档][1]，并正确安装和配置了 Node.js v8或以上。 同时，我们假设你已了解关于 HTML、CSS 和 JavaScript 的初级知识，并且已经熟悉并阅读了[小程序自定义组件][3]。
 
 ## 安装
 
-Lin UI提供两种安装方法，满足不同开发者的需求。如果您需要使用`npm`安装，请确保您已经在本机安装了`npm`。
+CoCo UI提供两种安装方法，满足不同开发者的需求。如果您需要使用`npm`安装，请确保您已经在本机安装了`npm`。
 
 ::: warning
-**使用 Lin UI 务必勾选`Es6 转 ES5`和`使用 npm 模块`选项**，[参考图片](https://cdn.talelin.com/%E6%9C%AC%E5%9C%B0%E8%AE%BE%E7%BD%AE.png)
+**使用 CoCo UI 务必勾选`Es6 转 ES5`和`使用 npm 模块`选项**，[参考图片](https://cdn.talelin.com/%E6%9C%AC%E5%9C%B0%E8%AE%BE%E7%BD%AE.png)
 :::
 
 ### 方式一： 使用npm安装 （推荐）
@@ -48,18 +48,18 @@ npm install lin-ui
 
 ### 方式二：下载代码
 
-直接通过git下载  `Lin UI`  源代码，并将 `dist` 目录（Lin-UI 组件库）拷贝到自己的项目中。
+直接通过git下载  `CoCo UI`  源代码，并将 `dist` 目录（Lin-UI 组件库）拷贝到自己的项目中。
 
 ```sh
 git clone https://github.com/TaleLin/lin-ui.git
 ```
 
 ## 使用组件
-> 下文会简单介绍一个`Lin UI` 组件的引入和使用。
+> 下文会简单介绍一个`CoCo UI` 组件的引入和使用。
 
 1. 配置微信开发者工具
 
-     - 要正确使用 Lin UI，需将微信开发者工具的 `Es6 转 ES5` 选项勾选上
+     - 要正确使用 CoCo UI，需将微信开发者工具的 `Es6 转 ES5` 选项勾选上
 
        > 设置路径：微信开发者工具右上角 -> 详情 -> 本地设置
 
@@ -77,7 +77,7 @@ git clone https://github.com/TaleLin/lin-ui.git
    ```html
     <l-button type="default">默认按钮</l-button>
    ```
-   > 我们建议你在引入 Lin UI 组件时，都统一命名为 `l-{组件名}` 格式，遵循此规范将使你的项目代码更加清晰
+   > 我们建议你在引入 CoCo UI 组件时，都统一命名为 `l-{组件名}` 格式，遵循此规范将使你的项目代码更加清晰
 
    **至此，Lin UI 已成功引入至你的项目中了！**
 ## 自定义配置
@@ -86,7 +86,7 @@ git clone https://github.com/TaleLin/lin-ui.git
 
 同时，可以通过对 `components.json` 进行配置，来编译生成相对应的组件。
 <br />
-为满足自定义的需求，首先我们要去下载 `Lin UI` 源码。
+为满足自定义的需求，首先我们要去下载 `CoCo UI` 源码。
 
 ```sh
 git clone https://github.com/TaleLin/lin-ui.git
@@ -97,10 +97,10 @@ git clone https://github.com/TaleLin/lin-ui.git
 npm install
 ```
 
-完成以上两步是对 `Lin UI` 进行自定义配置的基础要求。
+完成以上两步是对 `CoCo UI` 进行自定义配置的基础要求。
 
 ### 全局样式更改
-> Lin UI 的样式使用了 Less 作为开发语言，并定义了一系列全局/组件的样式变量，你可以根据需求进行相应调整。
+> CoCo UI 的样式使用了 Less 作为开发语言，并定义了一系列全局/组件的样式变量，你可以根据需求进行相应调整。
 
 以下是一些最常用的通用变量，所有样式变量可以在这里找到。
 
@@ -159,7 +159,7 @@ npm run build
 }
 ```
 
-配置完成后，在 `Lin UI` 下的根目录里打开终端执行
+配置完成后，在 `CoCo UI` 下的根目录里打开终端执行
 
 ```bash
 npm run build

@@ -18,8 +18,8 @@ title: 折叠面板 Collapse
 ### 示例代码
 ```wxml
 <l-collapse>
-  <l-collapse-item title="Lin UI">
-    Lin UI 是基于微信小程序原生语法实现的组件库。遵循简洁，易用的设计规范。
+  <l-collapse-item title="CoCo UI">
+    CoCo UI 是基于微信小程序原生语法实现的组件库。遵循简洁，易用的设计规范。
   </l-collapse-item>
   <l-collapse-item title="Lin-CMS">
     Lin-CMS 是林间有风团队经过大量项目实践所提炼出的一套内容管理系统框架。
@@ -40,8 +40,8 @@ title: 折叠面板 Collapse
 ### 示例代码
 ```wxml
 <l-collapse type="accordion">
-  <l-collapse-item title="Lin UI">
-    Lin UI 是基于微信小程序原生语法实现的组件库。遵循简洁，易用的设计规范。
+  <l-collapse-item title="CoCo UI">
+    CoCo UI 是基于微信小程序原生语法实现的组件库。遵循简洁，易用的设计规范。
   </l-collapse-item>
   <l-collapse-item title="Lin-CMS">
     Lin-CMS 是林间有风团队经过大量项目实践所提炼出的一套内容管理系统框架。

@@ -69,7 +69,7 @@ itemList: [
       name: '保存海报分享',
       image:'/images/response/picture.png', 
       imageStyle:'width:40rpx;height:40rpx;',
-      color:'#3683D6'    
+      color:'#72ba68'    
     },
     {
       name: '转发给好友',

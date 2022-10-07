@@ -77,7 +77,7 @@ title: 徽章 Badge
 
 ## 自定义徽标内容
 
-可在微信小程序项目内的wxs文件中自定义内容格式化函数,具体用法可参考以下示例代码。Lin-UI也提供了内置的wxs格式化函数，具体用法参考Lin-UI的<a href="/filter/">filter</a>文档。
+可在微信小程序项目内的wxs文件中自定义内容格式化函数,具体用法可参考以下示例代码。CoCo-UI也提供了内置的wxs格式化函数，具体用法参考Lin-UI的<a href="/filter/">filter</a>文档。
 
 ### 示例代码
 

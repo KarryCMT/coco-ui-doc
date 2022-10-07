@@ -104,9 +104,9 @@ export default {
       text-overflow ellipsis
       white-space nowrap
       &:hover
-        color #3683D6
+        color #72ba68
       a.active
-        color #3683D6
+        color #72ba68
     img
       position absolute
       width 20px

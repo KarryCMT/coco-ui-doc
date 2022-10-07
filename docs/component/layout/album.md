@@ -84,7 +84,7 @@ data:{
     <view class="album">
         <l-avatar class="avatar" size='80' shape="square" src="" />
         <view class="right">
-            <view class="name">Lin-UI-27315</view>
+            <view class="name">CoCo-UI-27315</view>
             <view class='content'>一张横屏图片的展示，宽为360rpx。</view>
             <l-album urls='{{urls}}'></l-album>
         </view>
