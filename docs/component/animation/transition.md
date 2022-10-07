@@ -106,8 +106,8 @@ transition 在动画的不同阶段会有不同的样式 class，如果 transiti
         l-class="case-custom-class"
         l-enter-active-class="coco-enter-active-class"
         l-leave-active-class="coco-leave-active-class"
-        l-enter-class="lin-enter-class"
-        l-leave-to-class="lin-leave-to-class"
+        l-enter-class="coco-enter-class"
+        l-leave-to-class="coco-leave-to-class"
 >
   <view class="sku">
     <view class="sku-card-container">
@@ -184,13 +184,13 @@ Page({
 }
 
 
-.lin-enter-active-class,
-.lin-leave-active-class {
+.coco-enter-active-class,
+.coco-leave-active-class {
   bottom: 0;
 }
 
-.lin-enter-class,
-.lin-leave-to-class {
+.coco-enter-class,
+.coco-leave-to-class {
   bottom: -100%;
 }
 
@@ -262,10 +262,10 @@ Page({
     duration="300"
     name=""
     l-class="case-custom-class"
-    l-enter-active-class="lin-enter-active-class"
-    l-leave-active-class="lin-leave-active-class"
-    l-enter-class="lin-enter-class"
-    l-leave-to-class="lin-leave-to-class"
+    l-enter-active-class="coco-enter-active-class"
+    l-leave-active-class="coco-leave-active-class"
+    l-enter-class="coco-enter-class"
+    l-leave-to-class="coco-leave-to-class"
   >
   <l-status show type="cart" full-screen="{{false}}" bind:lintap="closeCase"/>
 </l-transition>
@@ -311,14 +311,14 @@ Page({
 }
 
 
-.lin-enter-active-class,
-.lin-leave-active-class {
+.coco-enter-active-class,
+.coco-leave-active-class {
   left: 0;
   top: 0;
 }
 
-.lin-enter-class,
-.lin-leave-to-class {
+.coco-enter-class,
+.coco-leave-to-class {
   left: -100%;
   top: -100%;
 }

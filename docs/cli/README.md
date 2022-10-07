@@ -23,7 +23,7 @@ npx coco-ui-cli create coco-ui-demo
 or
 ```bash
 npm install coco-ui-cli -g
-coco-ui-cli create lin-ui-demo
+coco-ui-cli create coco-ui-demo
 ```
 
 :::tip
@@ -34,8 +34,8 @@ coco-ui-cli create lin-ui-demo
 当项目创建完成后，会返回如下提示语句：
 
 ```
-Successfully created project lin-ui-demo, directory name is lin-ui-demo
-Next: Please run cd lin-ui-demo && npm install or yarn
+Successfully created project coco-ui-demo, directory name is coco-ui-demo
+Next: Please run cd coco-ui-demo && npm install or yarn
 ```
 
 到此一个基于 CoCo UI 的微信小程序项目已经安装完成，在每次上传之前会触发 **按需加载** 功能，无用组件或文件将不会被打包。
@@ -51,7 +51,7 @@ npm init -y
 
 接着，继续执行下面的命令。
 ```sh
-npm install lin-ui-cli
+npm install coco-ui-cli
 ```
 
 <br/>
@@ -61,7 +61,7 @@ npm install lin-ui-cli
 
 ```json
 "scripts": {
-    "beforeUpload": "npx lin-ui-cli load"
+    "beforeUpload": "npx coco-ui-cli load"
 }
 ```
 
