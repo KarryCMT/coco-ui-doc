@@ -4,7 +4,7 @@
       class="QR-img" src="/images/mini-program-code.jpg">
 </p>
 
-<div align="center"> <span class="logo" > Lin UI </span> </div>
+<div align="center"> <span class="logo" > CoCo UI </span> </div>
 
 <div class="row" />
 
