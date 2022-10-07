@@ -153,7 +153,7 @@ Page({
 |:----|:----|:----|:----|:----|
 | show | 控制日历组件的显示和隐藏 | Boolean | true/false | false | 
 | type | 选择类型:single表示选择单个日期，multiple表示选择多个日期，range表示选择日期区间 | String | single/multiple/range | single | 
-| color | 主题色 | String |  | lin UI主题色 | 
+| color | 主题色 | String |  | coco UI主题色 | 
 | default-date | 默认选中日期，type为 multiple 或 range 时为数组 | String/Number/Date | 当前日期 | 
 | format | 日期格式 | String | - | yyyy-MM-dd | 
 | formatter | 日期内容格式化函数 | function | - | - | 

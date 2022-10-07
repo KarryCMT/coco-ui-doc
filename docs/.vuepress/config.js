@@ -49,8 +49,8 @@ module.exports = {
     docsDir: 'docs',
     editLinks: true,
     editLinkText: '纠正错误',
-    repo: "TaleLin/lin-ui",
-    docsRepo: "TaleLin/lin-ui-doc",
+    repo: "KarryCMT/coco-ui",
+    docsRepo: "KarryCMT/coco-ui-doc",
     docsBranch: 'master',
     logo: '/images/left-logo.png',
     nav: [
@@ -80,7 +80,7 @@ module.exports = {
       },
       {
         text: '更新日志',
-        link: 'https://github.com/TaleLin/lin-ui/releases'
+        link: 'https://github.com/KarryCMT/coco-ui/releases'
       }
     ],
     sidebar: {

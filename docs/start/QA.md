@@ -5,7 +5,7 @@ title: 常见问题
 # <H2Icon /> 常见问题汇总（完善中……）
 
 ## 在跨端框架中使用Lin-UI
-lin-ui支持在uni-app、mpvue、Taro等跨端框架中使用。
+coco-ui支持在uni-app、mpvue、Taro等跨端框架中使用。
 
 ::: tip 注意
 当在跨端框架中引用lin-ui后，将只能编译为微信小程序
@@ -71,7 +71,7 @@ Add pages/index/index.less success!
 ```
 
 ## 关于`自定义iconfont`与lin-ui内置的`iconfont`相冲突的问题
-在实际项目，`lin-ui`现在所提供的`icon`可能还不能满足需求，我们往往会通过`iconfont`为项目添加自定义的`icon`。在添加`icon`的时候，往往会出现`自定义的iconfont`库中的`content`属性与`lin-ui`内置`iconfont`的`content`的值一样。
+在实际项目，`coco-ui`现在所提供的`icon`可能还不能满足需求，我们往往会通过`iconfont`为项目添加自定义的`icon`。在添加`icon`的时候，往往会出现`自定义的iconfont`库中的`content`属性与`coco-ui`内置`iconfont`的`content`的值一样。
 
 解决思路有以下两种:
 

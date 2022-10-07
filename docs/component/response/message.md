@@ -12,9 +12,9 @@ Message组件有以下两种用法：
 
 1. 常规组件的使用方式，通过更改传入的属性值来控制`Message`的显示和隐藏。
 
-2. `wx.lin.showMessage(object)`，使用`wx.lin.showMessag`的调用时，与组件的使用一致，需要在json文件中引入组件，且在wxml中写入`Message`组件。
+2. `wx.coco.showMessage(object)`，使用`wx.coco.showMessag`的调用时，与组件的使用一致，需要在json文件中引入组件，且在wxml中写入`Message`组件。
 
-`wx.lin.showMessage`接受的参数是个对象，里面包含了与消息提示相关的属性。
+`wx.coco.showMessage`接受的参数是个对象，里面包含了与消息提示相关的属性。
 
 :::tip
 第一种用法小程序基础库版本 `2.6.1` 开始支持。
@@ -48,7 +48,7 @@ showMessage(){
 ```js
 // js
 showMessage(){
-    wx.lin.showMessage({
+    wx.coco.showMessage({
         content:'消息提示'
     })
 }
@@ -89,7 +89,7 @@ showMessage(){
 ```js
 // js
 showMessage(){
-    wx.lin.showMessage({
+    wx.coco.showMessage({
         content:'内容'
     })
 }
@@ -108,7 +108,7 @@ showMessage(){
 ```js
 // js
 showMessage(){
-    wx.lin.showMessage({
+    wx.coco.showMessage({
         type:'success',
         content:'内容'
     })
@@ -122,7 +122,7 @@ showMessage(){
 ```js
 // js
 showMessage(){
-    wx.lin.showMessage({
+    wx.coco.showMessage({
         duration：4000,
         content:'内容'
     })
@@ -140,7 +140,7 @@ showMessage(){
 ```js
 // js
 showMessage(){
-    wx.lin.showMessage({
+    wx.coco.showMessage({
         type:'error',
         duration：4000,
         icon:'warning',

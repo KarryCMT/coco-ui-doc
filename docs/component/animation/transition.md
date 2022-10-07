@@ -104,8 +104,8 @@ transition 在动画的不同阶段会有不同的样式 class，如果 transiti
         duration="400"
         name=""
         l-class="case-custom-class"
-        l-enter-active-class="lin-enter-active-class"
-        l-leave-active-class="lin-leave-active-class"
+        l-enter-active-class="coco-enter-active-class"
+        l-leave-active-class="coco-leave-active-class"
         l-enter-class="lin-enter-class"
         l-leave-to-class="lin-leave-to-class"
 >

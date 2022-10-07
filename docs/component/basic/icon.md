@@ -108,7 +108,7 @@ title: 图标 Icon
 但是由于第二个设置了l-class属性，所以显示为不同的icon
 只是做个示例，不要纠结name和图标相对应的问题 -->
 
-<!-- lin-ui组件的duihao icon -->
+<!-- coco-ui组件的duihao icon -->
 <l-icon name='duihao' />
 <!-- 自己从iconfont下载的duihao icon -->
 <l-icon name='duihao' l-class='iconfont' />

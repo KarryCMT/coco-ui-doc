@@ -6,7 +6,7 @@ title: 加载中 Loading
 
 > 当区域正在获取数据时使用，提高用户体验。
 
-该组件支持<a href="/start/wx.html">wx.lin</a>用法。
+该组件支持<a href="/start/wx.html">wx.coco</a>用法。
 
 ## 加载类型
 

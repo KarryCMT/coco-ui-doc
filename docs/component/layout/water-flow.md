@@ -126,9 +126,9 @@ OK，`l-demo`组件封装好以后，接下来就可以渲染瀑布流了。
 <l-water-flow generic:l-water-flow-item="l-demo"/>
 ```
 
-启动渲染最重要的一步，就是在需要渲染的时候调用`wx.lin.renderWaterFlow()`（比如在onLoad生命周期中）并传入需要渲染的数据，然后就可以完成组件的渲染。
+启动渲染最重要的一步，就是在需要渲染的时候调用`wx.coco.renderWaterFlow()`（比如在onLoad生命周期中）并传入需要渲染的数据，然后就可以完成组件的渲染。
 
-`wx.lin.renderWaterFlow()`支持传入三个参数，第一个参数为`data`即为传入的数据信息，第二个参数为`refresh`为是否刷新数据(删除之前渲染的数据，重新渲染)。
+`wx.coco.renderWaterFlow()`支持传入三个参数，第一个参数为`data`即为传入的数据信息，第二个参数为`refresh`为是否刷新数据(删除之前渲染的数据，重新渲染)。
 
 ::: tip
 该组件内部已经实现保存了历史数据，在实际应用场景中，经常会采用分页获取数据的方法，第二次渲染传入新的数据即可，请勿合并第一次的数据传入，造成数据的重复。
@@ -160,7 +160,7 @@ Page({
   },
 
   onLoad(options) {
-    wx.lin.renderWaterFlow(this.data.demo, false ,()=>{
+    wx.coco.renderWaterFlow(this.data.demo, false ,()=>{
       console.log('渲染成功')
     })
   }

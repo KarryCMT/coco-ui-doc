@@ -18,12 +18,12 @@ CoCo UI CLI 是一款针对于 **微信小程序** 以及 **CoCo UI** 的脚手�
 
 ```bash
 # 推荐
-npx lin-ui-cli create lin-ui-demo
+npx coco-ui-cli create coco-ui-demo
 ```
 or
 ```bash
-npm install lin-ui-cli -g
-lin-ui-cli create lin-ui-demo
+npm install coco-ui-cli -g
+coco-ui-cli create lin-ui-demo
 ```
 
 :::tip
@@ -65,20 +65,20 @@ npm install lin-ui-cli
 }
 ```
 
-创建 **lin-ui.config.json** [配置文件](#linui-config-json-attributes）)（可选），在文件里写入：
+创建 **coco-ui.config.json** [配置文件](#linui-config-json-attributes）)（可选），在文件里写入：
 ```json
 {
-  "lib": "miniprogram_npm/lin-ui"
+  "lib": "miniprogram_npm/coco-ui"
 }
 ```
 
 到此 CoCo UI CLI 脚手架已经安装完成，在每次上传之前会触发 **按需加载** 功能，无用组件或文件将不会被打包。
 
 
-## lin-ui.config.json (Attributes）
+## coco-ui.config.json (Attributes）
 
 | 参数            | 说明                                                       | 类型   | 可选值 | 默认值          |
 | :-------------- | :--------------------------------------------------------- | :----- | :----- | :-------------- |
-| lib      | 配置 CoCo UI 组件所在路径      | String | -      | miniprogram_npm/lin-ui          |
+| lib      | 配置 CoCo UI 组件所在路径      | String | -      | miniprogram_npm/coco-ui          |
 
 <RightMenu /> 

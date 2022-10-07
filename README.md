@@ -15,16 +15,16 @@
 </div>
 
 <div align="center">
-    <a href="https://github.com/TaleLin/lin-ui/actions">
-        <img alt="持续集成" src="https://img.shields.io/github/workflow/status/talelin/lin-ui/Node.js%20CI/develop?label=%E6%8C%81%E7%BB%AD%E9%9B%86%E6%88%90&logo=github" />
+    <a href="https://github.com/KarryCMT/coco-ui/actions">
+        <img alt="持续集成" src="https://img.shields.io/github/workflow/status/talelin/coco-ui/Node.js%20CI/develop?label=%E6%8C%81%E7%BB%AD%E9%9B%86%E6%88%90&logo=github" />
     </a>
-    <a href="https://www.npmjs.com/package/lin-ui">
-        <img alt="最新版本" src="https://img.shields.io/npm/v/lin-ui?color=%233a63bd&label=%E6%9C%80%E6%96%B0%E7%89%88%E6%9C%AC&logo=graphcool&logoColor=white" />
+    <a href="https://www.npmjs.com/package/coco-ui">
+        <img alt="最新版本" src="https://img.shields.io/npm/v/coco-ui?color=%233a63bd&label=%E6%9C%80%E6%96%B0%E7%89%88%E6%9C%AC&logo=graphcool&logoColor=white" />
     </a>
-    <a href="https://www.npmjs.com/package/lin-ui">
-        <img alt="周下载量" src="https://img.shields.io/npm/dw/lin-ui?color=%233c973c&label=%E5%91%A8%E4%B8%8B%E8%BD%BD%E9%87%8F&logo=node.js&logoColor=white" />
+    <a href="https://www.npmjs.com/package/coco-ui">
+        <img alt="周下载量" src="https://img.shields.io/npm/dw/coco-ui?color=%233c973c&label=%E5%91%A8%E4%B8%8B%E8%BD%BD%E9%87%8F&logo=node.js&logoColor=white" />
     </a>
-    <a href="https://www.npmjs.com/package/lin-ui">
+    <a href="https://www.npmjs.com/package/coco-ui">
         <img alt="基础库版本" src="https://img.shields.io/badge/%E5%9F%BA%E7%A1%80%E5%BA%93%E7%89%88%E6%9C%AC-%3E%3D2.8.2-brightgreen" />
     </a>
 </div>
@@ -68,7 +68,7 @@ CoCo UI 是一套基于 **微信小程序原生语法** 实现的高质量 UI �
 2. 安装 CoCo UI
 
    ```
-   npm i lin-ui
+   npm i coco-ui
    ```
 
 3. 配置微信开发者工具
@@ -98,7 +98,7 @@ CoCo UI 是一套基于 **微信小程序原生语法** 实现的高质量 UI �
    ```json
    {
      "usingComponents":{
-       "l-button":"/miniprogram_npm/lin-ui/button/index"
+       "l-button":"/miniprogram_npm/coco-ui/button/index"
      }
    }
    ```
@@ -116,13 +116,13 @@ CoCo UI 是一套基于 **微信小程序原生语法** 实现的高质量 UI �
 
 ## 用户案例
 
-CoCo UI 经过大量用户实践，已产生出非常多的优秀案例，[点击链接](https://github.com/TaleLin/lin-ui/issues/947)可查看其他用户的提交的案例小程序。
+CoCo UI 经过大量用户实践，已产生出非常多的优秀案例，[点击链接](https://github.com/KarryCMT/coco-ui/issues/947)可查看其他用户的提交的案例小程序。
 
 ## 贡献代码
 
 我们的代码基于 develop 分支开发，欢迎提交 Pull Request 进行代码贡献。
 
-在提交 Pull Request 之前，请详细阅读我们的[开发规范](https://github.com/TaleLin/lin-ui/wiki)，否则可能因为 Commit 信息不规范等原因被关闭 Pull Request。
+在提交 Pull Request 之前，请详细阅读我们的[开发规范](https://github.com/KarryCMT/coco-ui/wiki)，否则可能因为 Commit 信息不规范等原因被关闭 Pull Request。
 
 ## 开源协议
 

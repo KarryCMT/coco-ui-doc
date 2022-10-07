@@ -72,7 +72,7 @@ Page({
     */
   },
   onLoad: function () {
-    wx.lin.initValidateForm(this)
+    wx.coco.initValidateForm(this)
   },
 })
 ```
@@ -85,7 +85,7 @@ form-Item 中只能使用 CoCo-UI 的表单元素，不能使用其他UI组件�
 
 表单使用需要有以下注意：
 
-1. 使用 form 组件时需要在 onLoad 中调用 `wx.lin.initValidateForm(this)`进行初始化。
+1. 使用 form 组件时需要在 onLoad 中调用 `wx.coco.initValidateForm(this)`进行初始化。
 
 2. 需要给 form 组件设置 name 属性。当用户手动提交表单的时候需要传入表单 name。例： `<l-form name="student"></l-form>`。
 
@@ -170,7 +170,7 @@ form-Item 中只能使用 CoCo-UI 的表单元素，不能使用其他UI组件�
     }]
   },
   onLoad: function () {
-   wx.lin.initValidateForm(this)
+   wx.coco.initValidateForm(this)
   },
   change(e) {
     let items = this.data.items;
@@ -503,9 +503,9 @@ data: {
 
 ## 手动提交或重置表单
 
-通过`wx.lin.submitForm('formName')`方法， 传入对应表单`form` 的 `name` 属性提交表单 。
+通过`wx.coco.submitForm('formName')`方法， 传入对应表单`form` 的 `name` 属性提交表单 。
 
-通过`wx.lin.resetForm('formName')`方法， 传入对应表单`form` 的 `name` 属性重置表单 。
+通过`wx.coco.resetForm('formName')`方法， 传入对应表单`form` 的 `name` 属性重置表单 。
 
 
 

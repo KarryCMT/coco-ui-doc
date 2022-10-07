@@ -8,7 +8,7 @@ title: 贡献指南
 
 ## 开发流程
 
-我们所有的工作都会放在[GitHub](https://github.com/TaleLin/lin-ui)上。不管是核心团队的成员还是外部贡献者的 pull request 都需要经过同样流程的 review。
+我们所有的工作都会放在[GitHub](https://github.com/KarryCMT/coco-ui)上。不管是核心团队的成员还是外部贡献者的 pull request 都需要经过同样流程的 review。
 
 ## 分支管理
 
@@ -16,7 +16,7 @@ title: 贡献指南
 
 ## Bugs && Issue
 
-如果您想要发现的 Bug 快速解决和提出新的想法及新增 API 得以实现，提出 [Github Issue](https://github.com/TaleLin/lin-ui/issues) 会是一种优雅的方式。我们也欢迎您来提出 Issue,不过在提 Issue 时请仔细按照Issue Template描述所遇到的 Bug 或者需求。
+如果您想要发现的 Bug 快速解决和提出新的想法及新增 API 得以实现，提出 [Github Issue](https://github.com/KarryCMT/coco-ui/issues) 会是一种优雅的方式。我们也欢迎您来提出 Issue,不过在提 Issue 时请仔细按照Issue Template描述所遇到的 Bug 或者需求。
 
 ## Pull Request
 

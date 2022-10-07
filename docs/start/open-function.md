@@ -26,7 +26,7 @@ CoCo UI 组件内部所有的**开放函数**均以 `linXXX` 的格式进行命�
 // index.json
 {
   "usingComponents": {
-    "l-toast": "/miniprogram_npm/lin-ui/toast/index"
+    "l-toast": "/miniprogram_npm/coco-ui/toast/index"
   }
 }
 ```

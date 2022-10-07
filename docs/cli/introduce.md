@@ -21,13 +21,13 @@ title: 详细介绍
 
 当进行完以上操作后，即可等待项目创建完成。
 
-使用 `create` 命令创建的项目默认携带 **lin-ui.config.json** 文件，此文件为脚手架配置文件，此配置文件有以下配置：
+使用 `create` 命令创建的项目默认携带 **coco-ui.config.json** 文件，此文件为脚手架配置文件，此配置文件有以下配置：
 
-- `lib` ： 配置 CoCo UI 组件库文件夹的名称，默认值 `miniprogram_npm/lin-ui`
+- `lib` ： 配置 CoCo UI 组件库文件夹的名称，默认值 `miniprogram_npm/coco-ui`
 
 大多数情况下，此配置文件的配置内容无需任何更改，除非您使用源码方式安装，组件在其他路径的情况下时，当然如果您认为不需要此文件，您也可以删除，我们在脚手架内部已内置与微信小程序相同的默认配置。
 
-在生成的微信开发者工具配置文件 **project.config.json** 文件中，我们已默认配置如下代码，用来防止微信小程序打包配置文件 **lin-ui.config.json** 与 **.gitignore** 文件：
+在生成的微信开发者工具配置文件 **project.config.json** 文件中，我们已默认配置如下代码，用来防止微信小程序打包配置文件 **coco-ui.config.json** 与 **.gitignore** 文件：
 
 ```json
 "packOptions": {

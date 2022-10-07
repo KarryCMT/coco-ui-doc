@@ -112,7 +112,7 @@ Page({
 
   // 页面监听函数
   onPageScroll(res) {
-    wx.lin.setScrollTop(res.scrollTop)
+    wx.coco.setScrollTop(res.scrollTop)
   },
 
   // 索引被选中的监听函数
@@ -125,9 +125,9 @@ Page({
 ```
 
 ::: tip 优化
-`scrollTop`的传入方式除了使用`index-list`组件的属性传入以外，还支持`wx.lin.setScrollTop(scrollTop)`。
+`scrollTop`的传入方式除了使用`index-list`组件的属性传入以外，还支持`wx.coco.setScrollTop(scrollTop)`。
 
-如果对性能有极致要求，建议使用`wx.lin.setScrollTop(scrollTop)`的方式传入`scrollTop`属性。
+如果对性能有极致要求，建议使用`wx.coco.setScrollTop(scrollTop)`的方式传入`scrollTop`属性。
 :::
 
 ## 索引列表属性
@@ -169,10 +169,10 @@ Page({
 | --------- | ------------ | ---- | ------ |
 | 默认 slot | `Anchor`区域 | ---  | ---    |
 
-## 索引列表 wx.lin 方法
+## 索引列表 wx.coco 方法
 
 | 方法名称            | 说明              | 返回值 | 备注 | 版本号 |
 | ------------------- | ----------------- | ------ | ---- | ------ |
-| wx.lin.setScrollTop | 设置`scrollTop`值 | 无     | ---  | ---    |
+| wx.coco.setScrollTop | 设置`scrollTop`值 | 无     | ---  | ---    |
 
 <RightMenu/>

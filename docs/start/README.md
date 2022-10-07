@@ -32,16 +32,16 @@ npm config set registry https://registry.npm.taobao.org
 :::
 接着，继续执行下面的命令。
 ```sh
-npm install lin-ui
+npm install coco-ui
 ```
 
-执行成功后，会在根目录里生成项目依赖文件夹 `node_modules/lin-ui` （小程序IDE的目录结构里不会显示此文件夹）。
+执行成功后，会在根目录里生成项目依赖文件夹 `node_modules/coco-ui` （小程序IDE的目录结构里不会显示此文件夹）。
 <br/>
 然后用小程序官方IDE打开我们的小程序项目，找到 `工具` 选项，点击下拉选中 `构建npm` ，等待构建完成即可。
 <img-wrapper>
   <img src="/screenshots/start/YUdIR2E3ME5weEZEa3ErKzdJRGVNckFIWUZrS0ZKeWNOUnpxSXh5MlRKQU9Jakh6WnRXenVRPT0.png">
 </img-wrapper>
-出现上图所示的结果后，可以看到小程序IDE工具的目录结构里多出了一个文件夹 `miniprogram_npm`（之后所有通过 `npm ` 引入的组件和 `js` 库都会出现在这里），打开后可以看到 `lin-ui` 文件夹，也就是我们所需要的组件。
+出现上图所示的结果后，可以看到小程序IDE工具的目录结构里多出了一个文件夹 `miniprogram_npm`（之后所有通过 `npm ` 引入的组件和 `js` 库都会出现在这里），打开后可以看到 `coco-ui` 文件夹，也就是我们所需要的组件。
 <img-wrapper>
   <img src="/screenshots/start/YUdIR2E3ME5weEVCVEZMbkRGRHZaRWdTWE9UMzd1Y3ZkN2dHUjBHY2xSS1daZjl0QTkvOVVBPT0.png">
 </img-wrapper>
@@ -51,7 +51,7 @@ npm install lin-ui
 直接通过git下载  `CoCo UI`  源代码，并将 `dist` 目录（Lin-UI 组件库）拷贝到自己的项目中。
 
 ```sh
-git clone https://github.com/TaleLin/lin-ui.git
+git clone https://github.com/KarryCMT/coco-ui.git
 ```
 
 ## 使用组件
@@ -69,7 +69,7 @@ git clone https://github.com/TaleLin/lin-ui.git
    ```json
    {
      "usingComponents":{
-       "l-button":"/miniprogram_npm/lin-ui/button/index"
+       "l-button":"/miniprogram_npm/coco-ui/button/index"
      }
    }
    ```
@@ -89,7 +89,7 @@ git clone https://github.com/TaleLin/lin-ui.git
 为满足自定义的需求，首先我们要去下载 `CoCo UI` 源码。
 
 ```sh
-git clone https://github.com/TaleLin/lin-ui.git
+git clone https://github.com/KarryCMT/coco-ui.git
 ```
 安装相关依赖
 

@@ -11,7 +11,7 @@ Promisic 搭配 async、await 味道更好哦！可以把异步API转化为同�
 ### 示例代码
 
 ::: tip
-npm安装：`/miniprogram_npm/lin-ui/utils/util.js`
+npm安装：`/miniprogram_npm/coco-ui/utils/util.js`
 <br />
 源码安装：`/dist/utils/util.js`
 :::

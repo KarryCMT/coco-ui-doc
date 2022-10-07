@@ -44,10 +44,10 @@ Page({
   }
 })
 ```
-### `wx.lin`传值示例代码
+### `wx.coco`传值示例代码
 
 ::: tip 提示
-* 若一个页面中仅使用了一个sticky组件，可采用[`wx.lin.setScrollTop(scrollTop)`](#吸顶容器事件（sticky-events）)方式传入scrollTop值。该方式在一定程度上可以优化性能。
+* 若一个页面中仅使用了一个sticky组件，可采用[`wx.coco.setScrollTop(scrollTop)`](#吸顶容器事件（sticky-events）)方式传入scrollTop值。该方式在一定程度上可以优化性能。
 :::
 
 ```wxml
@@ -66,7 +66,7 @@ Page({
 // 页面js文件
 Page({
   onPageScroll(res) {
-    wx.lin.setScrollTop(res.scrollTop)
+    wx.coco.setScrollTop(res.scrollTop)
   }
 })
 ```
@@ -105,7 +105,7 @@ Page({
 
 ## 动态修改内容
 
-在某些场景下`sticky-item`的内容会增加/减少，如：上拉加载更多，此时需要主动调用`wx.lin.flushSticky()`方法刷新吸顶容器的宽高数据，否则会造成吸顶位置错乱。
+在某些场景下`sticky-item`的内容会增加/减少，如：上拉加载更多，此时需要主动调用`wx.coco.flushSticky()`方法刷新吸顶容器的宽高数据，否则会造成吸顶位置错乱。
 
 ### 示例代码
 
@@ -118,7 +118,7 @@ Page({
         listData:data
     })
 	// 刷新sticky容器
-    wx.lin.flushSticky()
+    wx.coco.flushSticky()
   }
 ```
 
@@ -172,8 +172,8 @@ Page({
 
 | 方法名称             | 说明                                       | 返回值 | 备注 | 版本号 |
 | -------------------- | ------------------------------------------ | ------ | ---- | ---- |
-| wx.lin.flushSticky() | 刷新吸顶容器宽高数据，在改变sticky-item中的内容后调用 | -      | -    |0.7.4|
-| wx.lin.setScrollTop(scrollTop) | 设置页面滑动距离，仅可在页面使用一个sticky组件时使用该方式传值，若一个页面使用了两个及以上的sticky组件时，不可使用该方式传值 | -      | -    |0.7.4|
+| wx.coco.flushSticky() | 刷新吸顶容器宽高数据，在改变sticky-item中的内容后调用 | -      | -    |0.7.4|
+| wx.coco.setScrollTop(scrollTop) | 设置页面滑动距离，仅可在页面使用一个sticky组件时使用该方式传值，若一个页面使用了两个及以上的sticky组件时，不可使用该方式传值 | -      | -    |0.7.4|
 
 
 

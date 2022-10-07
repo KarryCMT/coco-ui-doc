@@ -5,7 +5,7 @@ title: wx.lin使用方法
 # <H2Icon /> wx.lin使用方法
 
 :::warning 已废弃
-wx.lin 已废弃，将在未来的某个版本移除，如果对应组件有[开放函数](./open-function)，请使用[开放函数](./open-function)代替
+wx.coco 已废弃，将在未来的某个版本移除，如果对应组件有[开放函数](./open-function)，请使用[开放函数](./open-function)代替
 :::
 
 在一些操作交互方面，有些组件可以全局挂载一个调用的方法，比如说vue中的类似的调用方法`this.$message`，同样的在小程序的组件中，我们也设计了类似的调用方法，不过在小程序中使用会受到一些限制：
@@ -14,7 +14,7 @@ wx.lin 已废弃，将在未来的某个版本移除，如果对应组件有[开
 2. 组件仅显示在引入的页面，跳转到其他页面时组件将会消失。比如某些场景下，在成功操作后会提示并跳转页面，这种场景建议传入回调函数在组件隐藏后再进行跳转或者使用原生的`API`。
 3. 一个页面只能引入一个相关的组件，比如`water-flow`组件每一个页面只能使用一次该组件。
 
-下面以`Loading`组件为例，介绍下`wx.lin`的用法：
+下面以`Loading`组件为例，介绍下`wx.coco`的用法：
 
 1. 在`json`和`wxml`文件中引入`loading`组件。
 
@@ -35,18 +35,18 @@ wx.lin 已废弃，将在未来的某个版本移除，如果对应组件有[开
 
 ```js
 onLoad(){
-  wx.lin.showLoading({
+  wx.coco.showLoading({
     type:"filp",
     fullScreen: true
   })
   setTimeout(()=>{
-    wx.lin.hideLoading()
+    wx.coco.hideLoading()
   },2000)
 }
 ```
 
 ::: tip
-显示的API为`wx.lin.show${组件名称}`，隐藏的API为`wx.lin.hide${组件名称}`(某些组件不支持隐藏)。
+显示的API为`wx.coco.show${组件名称}`，隐藏的API为`wx.coco.hide${组件名称}`(某些组件不支持隐藏)。
 :::
 
 <RightMenu />

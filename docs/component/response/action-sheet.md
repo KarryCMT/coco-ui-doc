@@ -8,17 +8,17 @@ title: 操作菜单 ActionSheet
 
 `ActionSheet`组件有两种用法:
 
-1 `wx.lin.showActionSheet(object)`，接近于微信原生API [wx.showActionShee](https://developers.weixin.qq.com/miniprogram/dev/api/ui/interaction/wx.showActionSheet.html)的调用方式.
+1 `wx.coco.showActionSheet(object)`，接近于微信原生API [wx.showActionShee](https://developers.weixin.qq.com/miniprogram/dev/api/ui/interaction/wx.showActionSheet.html)的调用方式.
 
 2 常规组件的使用方式，通过更改传入的属性值来控制`ActionSheet`的显示和隐藏。
 
-默认调用方式为`wx.lin.showActionSheet`。
+默认调用方式为`wx.coco.showActionSheet`。
 
 ## 基本使用 
 
-在使用`wx.lin.showActionSheet`的调用时，与组件的使用一致，需要在json文件中引入组件，且在wxml中写入`action-sheet`组件。
+在使用`wx.coco.showActionSheet`的调用时，与组件的使用一致，需要在json文件中引入组件，且在wxml中写入`action-sheet`组件。
 
-`wx.lin.showActionSheet`接受的参数是个对象，里面包含了所有与操作菜单相关的属性。
+`wx.coco.showActionSheet`接受的参数是个对象，里面包含了所有与操作菜单相关的属性。
 
 ::: tip 注意事项
 必须传入`itemList`,且长度不能为0。
@@ -36,7 +36,7 @@ title: 操作菜单 ActionSheet
 ```javascript
 // js
 showActionSheet(){
-	wx.lin.showActionSheet({
+	wx.coco.showActionSheet({
 		itemList:[{
 			name: '今日不再出现此类内容'
 		},
@@ -83,17 +83,17 @@ itemList: [
 
 ## 设置标题
 
-通过在`wx.lin.showActionSheet`中传入`title`设置标题。
+通过在`wx.coco.showActionSheet`中传入`title`设置标题。
 
 ## 点击菜单子项和取消之后的回调函数
 
-在`wx.lin.showActionSheet`中传入`success`和`fail`函数时，当点击操作菜单时，可触发传入的`success`函数，返回值包括所点击子菜单的位置索引和菜单的值；当点击背景蒙层或取消按钮时，触发`fail`函数。
+在`wx.coco.showActionSheet`中传入`success`和`fail`函数时，当点击操作菜单时，可触发传入的`success`函数，返回值包括所点击子菜单的位置索引和菜单的值；当点击背景蒙层或取消按钮时，触发`fail`函数。
 
 ## 关闭操作菜单
 
 `locked`默认`false`，点击背景蒙层可以关闭操作菜单，`locked`设置为`true`，点击背景蒙层不会关闭操作菜单的功能。
 
-通过在`wx.lin.showActionSheet`中传入`locked:Boolean`。
+通过在`wx.coco.showActionSheet`中传入`locked:Boolean`。
 
 
 通过改变`showCancel`的布尔值，设置是否显示取消按钮，默认不显示（`false`）；

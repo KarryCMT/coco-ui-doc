@@ -9,7 +9,7 @@ web开发中我们大部分使用css单位是px，但是在小程序中使用的
 ### 示例代码
 
 ::: tip
-npm安装：`/miniprogram_npm/lin-ui/utils/util.js`
+npm安装：`/miniprogram_npm/coco-uii/utils/util.js`
 <br />
 源码安装：`/dist/utils/util.js`
 :::

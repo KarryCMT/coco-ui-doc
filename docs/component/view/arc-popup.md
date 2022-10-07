@@ -7,10 +7,10 @@ title: 弧形滚动弹出层 ArcPopup
 > Popup弧形滚动弹出层组件。
 
 
-该组件支持<a href="/start/wx.html">wx.lin</a>用法。
+该组件支持<a href="/start/wx.html">wx.coco</a>用法。
 
 ::: tip 注意事项
- 为保证文档低阅读难度，详细代码请去[github](https://github.com/TaleLin/lin-ui/tree/develop/examples/pages/components/view/pages/arc-popup "github")查看。
+ 为保证文档低阅读难度，详细代码请去[github](https://github.com/KarryCMT/coco-ui/tree/develop/examples/pages/components/view/pages/arc-popup "github")查看。
 :::
 
 ## 基础使用
@@ -122,7 +122,7 @@ title: 弧形滚动弹出层 ArcPopup
 
 ## 案例演示
 ::: tip
-[详细源码](https://github.com/TaleLin/lin-ui/tree/develop/examples/pages/components/view/pages/arc-popup "详细源码")
+[详细源码](https://github.com/KarryCMT/coco-ui/tree/develop/examples/pages/components/view/pages/arc-popup "详细源码")
 ::: 
 
 :::img

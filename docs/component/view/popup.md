@@ -6,7 +6,7 @@ title: 弹出层 Popup
 
 > 显示背景为黑色半透明，且有内容区域展示的弹出层。
 
-该组件支持<a href="/start/wx.html">wx.lin</a>用法。
+该组件支持<a href="/start/wx.html">wx.coco</a>用法。
 
 ## 基本案例 
 

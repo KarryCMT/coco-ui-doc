@@ -48,7 +48,7 @@ title: 胶囊栏 CapsuleBar
 `CapsuleBar` 的高度便是通过该工具类获取到的。
 
 ```js
-import deviceUtil from "/miniprogram_npm/lin-ui/utils/device-util"
+import deviceUtil from "/miniprogram_npm/coco-ui/utils/device-util"
 
 Page({
   /**
@@ -88,7 +88,7 @@ CapsuleBar 的亮点除了构造了一个胶囊外，更加强大的是**支持�
 
 ```js
 // 注意此处相对路径要修改为正确的路径
-import deviceUtil from "../miniprogram_npm/lin-ui/utils/device-util"
+import deviceUtil from "../miniprogram_npm/coco-ui/utils/device-util"
 
 Page({
   data: {

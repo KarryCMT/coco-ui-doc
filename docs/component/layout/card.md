@@ -7,7 +7,7 @@ title: 卡片 Card
 > 基础卡片布局，常见应用场景为模块展示。
 
 ::: warning
-由于本组件示例代码的wxss过多，本文档不再展示，大家可以到[github](https://github.com/TaleLin/lin-ui/blob/master/examples/pages/components/layout/pages/card/index.wxss)自行复制。
+由于本组件示例代码的wxss过多，本文档不再展示，大家可以到[github](https://github.com/KarryCMT/coco-ui/blob/master/examples/pages/components/layout/pages/card/index.wxss)自行复制。
 :::
 
 ## 卡片类型

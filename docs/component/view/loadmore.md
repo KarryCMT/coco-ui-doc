@@ -11,7 +11,7 @@ Loadmore组件支持以下两种用法：
 2. Loadmore作为一个布局组件，可将页面的内容通过插槽的形式传入组件内部，此时loadmore组件的内容可自动定位
 在页面的最下方显示，该用法需设置`slot="content"`(以下示例代码使用的是第二种用法)。
 
-> 该组件支持<a href="/start/wx.html">wx.lin</a>用法。
+> 该组件支持<a href="/start/wx.html">wx.coco</a>用法。
 
 ## 显示与隐藏
 
